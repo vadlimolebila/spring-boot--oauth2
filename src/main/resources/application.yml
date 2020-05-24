@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: oauth2
+  datasource:
+    url: jdbc:mysql://localhost:3306/securitytest?useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+server:
+  port: 8080
