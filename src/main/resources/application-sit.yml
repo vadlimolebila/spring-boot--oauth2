@@ -2,10 +2,10 @@ spring:
   application:
     name: oauth2
   datasource:
-    url: jdbc:mysql://localhost:3306/securitytest?useSSL=false
+    url: jdbc:mysql://oauth-db:3306/test?useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: password
+    username: vadli
+    password: vadli
   jpa:
     generate-ddl: true
     show-sql: true
